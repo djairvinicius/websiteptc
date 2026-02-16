@@ -98,6 +98,10 @@ body {
 	font-size: 25px;
 	margin-bottom: 10px;
 }
+
+.titletwo {
+	color: #ffffff;
+}
 .text {
 	color: #ffffff;
 	font-size: 12px;
@@ -220,3 +224,7 @@ body {
 	color: #ffffff;
 	font-size: 7px; 
 }
+.redes img {
+	height: 12px;
+}
+.redes 
