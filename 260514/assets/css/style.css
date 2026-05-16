@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containeryoutube {
+    aspect-ratio: 16 / 9;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 12px;
+}
