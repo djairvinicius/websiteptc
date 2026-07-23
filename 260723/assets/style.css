@@ -1,0 +1,21 @@
+
+/*essa linha zera as bordas e padding*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top {
+    width: 100%;
+    height: 400px;
+    background: #323232
+}
+.titleone {
+    color: #212121;
+}
