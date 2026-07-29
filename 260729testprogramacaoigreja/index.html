@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Programação Semanal - Grade</title>
+<style>
+  :root {
+    --cor-borda: #e2e2e2;
+    --cor-texto: #2c2c2a;
+    --cor-texto-suave: #6b6b68;
+    --cor-cabecalho-fundo: #f7f7f5;
+
+    /* cores das tags de evento - troque pelas da sua paróquia */
+    --cor-missa-fundo: #e3f2ec;
+    --cor-missa-texto: #0f6e56;
+    --cor-catequese-fundo: #eef0fb;
+    --cor-catequese-texto: #4a4fc2;
+    --cor-terco-fundo: #fbf3e3;
+    --cor-terco-texto: #a3730b;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .programacao {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .programacao__titulo {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--cor-texto);
+  }
+
+  .programacao__wrapper {
+    overflow-x: auto; /* evita quebra feia em telas pequenas */
+  }
+
+  .grade {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    min-width: 480px; /* garante leitura mesmo se precisar rolar no celular */
+  }
+
+  .grade th,
+  .grade td {
+    border-bottom: 1px solid var(--cor-borda);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .grade thead th {
+    background: var(--cor-cabecalho-fundo);
+    color: var(--cor-texto);
+    font-weight: bold;
+  }
+
+  .grade__coluna-horario {
+    width: 60px;
+    color: var(--cor-texto-suave);
+    white-space: nowrap;
+  }
+
+  .tag-evento {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .tag-evento--missa {
+    background: var(--cor-missa-fundo);
+    color: var(--cor-missa-texto);
+  }
+
+  .tag-evento--catequese {
+    background: var(--cor-catequese-fundo);
+    color: var(--cor-catequese-texto);
+  }
+
+  .tag-evento--terco {
+    background: var(--cor-terco-fundo);
+    color: var(--cor-terco-texto);
+  }
+</style>
+</head>
+<body>
+
+<section class="programacao">
+  <h2 class="programacao__titulo">Programação da semana</h2>
+
+  <div class="programacao__wrapper">
+    <table class="grade">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Terça</th>
+          <th>Quinta</th>
+          <th>Domingo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="grade__coluna-horario">15h</td>
+          <td>—</td>
+          <td><span class="tag-evento tag-evento--catequese">Catequese</span></td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td class="grade__coluna-horario">19h</td>
+          <td><span class="tag-evento tag-evento--missa">Missa</span></td>
+          <td>—</td>
+          <td><span class="tag-evento tag-evento--missa">Missa</span></td>
+        </tr>
+        <tr>
+          <td class="grade__coluna-horario">20h</td>
+          <td>—</td>
+          <td><span class="tag-evento tag-evento--terco">Terço</span></td>
+          <td>—</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+</body>
+</html>
