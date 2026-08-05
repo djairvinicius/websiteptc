@@ -1,0 +1,9 @@
+body {
+    background-color: var(--cor-fundo-primario);
+}
+.navbar {
+    background-color: var(--cor-fundo-secundario);
+}
+.logotext {
+    color: var(--cor-texto);
+}
