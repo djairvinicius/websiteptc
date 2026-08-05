@@ -1,0 +1,14 @@
+:root {
+    --cor-fundo-primaria: #212121;
+    --cor-fundo-secundari: #454545;
+    --cor-texto: #ffffff;
+
+    --espacamento-navbar: 25px 10px 25px 10px;
+    --espacamento-pequeno: 8px;
+    --espacamento-medio: 12px;
+    --espacamento-grande: 16px;
+
+    --texto-primario: 21px;
+    --texto-secundario: 16px;
+    --text-paragrafo: 11px;
+}
