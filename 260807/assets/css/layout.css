@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 60px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--espacamento-navbar);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.navlinks {
+    display: flex;
+}
+
+.navlinks li {
+    margin-left: 20px;
+}
+
+.topo .artigo{
+    height: 720px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--espacamento-medio)
+}
+
+.final {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--espacamento-medio);
+}
