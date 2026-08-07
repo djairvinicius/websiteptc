@@ -1,0 +1,39 @@
+body {
+    background-color: var(--cor-fundo-primario);
+}
+
+.navbar {
+    background-color: var(--cor-fundo-secundario);
+}
+
+.logotext {
+    color: var(--cor-texto);
+}
+
+.navlinks a {
+    color: var(--cor-texto);
+}
+
+.titleone {
+    color: var(--cor-texto);
+}
+
+.titletwo {
+    color: var(--cor-texto);
+}
+
+.texto {
+    color: var(--cor-texto);
+}
+
+.topo {
+    background-color: var(--cor-fundo-secundario);
+}
+
+.artigo {
+    background-color: var(--cor-fundo-primario);
+}
+
+.final {
+    background-color: var(--cor-fundo-secundario);
+}
