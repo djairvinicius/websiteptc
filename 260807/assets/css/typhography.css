@@ -1,0 +1,15 @@
+.logotext {
+    font-size: var(--tamanho-texto-medio);
+}
+
+.titleone {
+    font-size: var(--tamanho-texto-grande)
+}
+
+.titletwo {
+    font-size: var(--tamanho-texto-grande);
+}
+
+.texto {
+    font-size: var(--tamanho-texto-pequeno)
+}
