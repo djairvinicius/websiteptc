@@ -1,0 +1,27 @@
+body {
+    background-color: var(--cor-fundo-primario);
+}
+
+.navbar{
+    background-color: var(--cor-fundo-secundario);
+}
+
+.logotext {
+    color: var(--cor-texto);
+}
+
+.navlinks a {
+    color: var(--cor-texto)
+}
+
+.titleone {
+    color: var(--cor-texto);
+}
+
+.text {
+    color: var(--cor-texto);
+}
+
+.top {
+    background-color: var(--cor-fundo-primario);
+}

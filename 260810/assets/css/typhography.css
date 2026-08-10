@@ -1,0 +1,15 @@
+.logotext {
+    font-size: var(--tamanho-texto-medio);
+}
+
+.navlinks a {
+    font-size: var(--tamanho-texto-pequeno)
+}
+
+.titleone {
+    font-size: var(--tamanho-texto-grande);
+}
+
+.text {
+    font-size: var(--tamanho-texto-pequeno)
+}
