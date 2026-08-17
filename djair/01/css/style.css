@@ -25,6 +25,9 @@ body {
 	top: 0;
 	z-index: 1000;
 }
+.navbar a {
+	text-decoration: none;
+}
 .logocontainer {
 	display: flex;
 	align-items: center;
@@ -224,7 +227,7 @@ body {
 	color: #ffffff;
 	font-size: 7px; 
 }
+
 .redes img {
 	height: 12px;
 }
-.redes 
