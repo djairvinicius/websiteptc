@@ -1,0 +1,14 @@
+.produtos {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.item {
+  min-width: 150px;
+  flex-shrink: 0;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
