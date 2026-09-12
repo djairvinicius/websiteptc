@@ -231,3 +231,14 @@ body {
 .redes img {
 	height: 12px;
 }
+.principal h2 {
+	color: #ffffff;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.servicos table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	color: #ffffff;
+}
