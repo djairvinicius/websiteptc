@@ -5,9 +5,9 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 25px 10px;
+	padding: 25px 25px;
 	position: sticky;
-	top: 0;
+	top: 0px;
 	z-index:1000;
 	backdrop-filter: blur(8px);
 	-webkit-backdrop-filter: blur(8px);
@@ -27,3 +27,9 @@
 .navlinks a:hover {
 	color: #505050;
 }
+
+body > *:not(nav) {
+	background-color: #ffffff;
+	padding: 0px 35px;
+}
+
