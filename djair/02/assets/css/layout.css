@@ -13,6 +13,10 @@
 	-webkit-backdrop-filter: blur(8px);
 }
 
+.logotext {
+	font-weight: bold;
+}
+
 .navlinks {
 	display: flex;
 	list-style: none;
@@ -22,10 +26,11 @@
 	margin-left: 20px;
 	text-decoration: none;
 	color: #000000;
+	font-size: 12px;
 }
 
 .navlinks a:hover {
-	color: #505050;
+	color: #707070;
 }
 
 body > *:not(nav) {
@@ -33,3 +38,44 @@ body > *:not(nav) {
 	padding: 0px 35px;
 }
 
+.top {
+	background-color: #212121;
+	height: 400px;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+}
+
+.top h1 {
+	color: #ffffff;
+}
+
+.card {
+	height: 222px;
+	background-color: #f5f6f5;
+	margin-top: 20px;
+	border-radius: 12px;
+	border: #C9C9C9 solid 1px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card img {
+	width: 60px;
+}
+
+.final {
+	height: 150px;
+	background-color: #212121;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.final p {
+	color: #ffffff;
+	font-size: 10px;
+}
