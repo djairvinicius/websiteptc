@@ -5,7 +5,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 25px 25px;
+	padding: 25px 380px;
 	position: sticky;
 	top: 0px;
 	z-index:1000;
@@ -13,8 +13,28 @@
 	-webkit-backdrop-filter: blur(8px);
 }
 
+@media (max-width: 1600px) {
+	.navbar {
+		padding: 25px 150px;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar {
+		padding: 25px 50px;
+    }
+}
+
+@media (max-width: 480px) {
+	.navbar {
+		padding: 25px 40px;
+    }
+}
+
+
 .logotext {
 	font-weight: bold;
+	font-size: 23px;
 }
 
 .navlinks {
@@ -26,7 +46,7 @@
 	margin-left: 20px;
 	text-decoration: none;
 	color: #000000;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 .navlinks a:hover {
@@ -35,20 +55,58 @@
 
 body > *:not(nav) {
 	background-color: #ffffff;
-	padding: 0px 35px;
+	padding: 0px 450px;
+}
+
+/* Telas menores que 1200px */
+@media (max-width: 1600px) {
+    body > *:not(nav) {
+        padding: 0 200px;
+	}
+}
+
+
+/* Telas menores que 768px */
+@media (max-width: 768px) {
+    body > *:not(nav) {
+        padding: 0 50px;
+    }
+}
+
+/* Celulares menores que 480px */
+@media (max-width: 480px) {
+    body > *:not(nav) {
+        padding: 0 40px;
+    }
 }
 
 .top {
-	background-color: #212121;
-	height: 400px;
+	background-image: linear-gradient(#000000CC),
+	url("../images/1.jpg");
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+	min-height: 80vh;
 	width: 100vw;
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	font-size: 30px;
 }
 
-.top h1 {
-	color: #ffffff;
+@media (max-width: 880px) {
+	.top {
+		font-size: 20px;
+	}
 }
+
+@media (max-width: 512px) {
+	.top {
+		font-size:15px; 
+	}
+}
+
+
 
 .card {
 	height: 222px;
@@ -57,13 +115,17 @@ body > *:not(nav) {
 	border-radius: 12px;
 	border: #C9C9C9 solid 1px;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	gap: 12px;
 }
 
 .card img {
 	width: 60px;
+}
+
+a {
+	text-decoration: none;
 }
 
 .final {
@@ -72,10 +134,23 @@ body > *:not(nav) {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	justify-content: space-between;
 	margin-top: 20px;
 }
 
 .final p {
 	color: #ffffff;
 	font-size: 10px;
+}
+
+.finalsocial {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+}
+
+.sociallinks {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
